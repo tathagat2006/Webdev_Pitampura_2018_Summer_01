@@ -1,0 +1,21 @@
+.container {
+    background-color: orange;
+    height: 400px;
+    width: 300px;
+    padding: 0px;
+    display: flex;
+    /* flex-wrap: wrap-reverse;
+    flex-direction: column-reverse; */
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: flex-start; 
+}
+
+.item {
+    background-color: darkslategray;
+    color: bisque;
+    font-size: 18pt;
+    height: 60px;
+    width: 60px;
+    border: white 1px solid;
+}
